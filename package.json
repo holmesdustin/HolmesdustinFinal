@@ -4,6 +4,7 @@
   "description": "Final Exam",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +21,8 @@
     "ejs": "^3.0.1",
     "express": "^4.17.1",
     "node-fetch": "^2.6.0"
+  },
+  "engines":{
+      "node":"10.x"
   }
 }
