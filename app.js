@@ -13,7 +13,7 @@ var express = require('express');
           });
           
              
-//git checkout master, git merge nameofbranch, git push
+//git checkout master, git merge finalExam, git push
 
 
 app.get('/', function(req, res){
