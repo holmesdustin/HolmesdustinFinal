@@ -11,7 +11,7 @@ var express = require('express');
 
 	 	 
               
-        app.get('/', function(req, res){
+        app.getData('/', function(req, res){
             let url = 'https://csuserversidewebdevfinal.herokuapp.com/';
             let pic;
             nodeFetch(url)
