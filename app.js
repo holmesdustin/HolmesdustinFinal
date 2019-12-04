@@ -10,9 +10,8 @@ var express = require('express');
 
 
 	 	 app.listen(port, function () {
-          });
-          
-
+          });   
+              
         app.get('/', function(req, res){
             let url = 'https://csuserversidewebdevfinal.herokuapp.com/';
             let img;
@@ -21,7 +20,9 @@ var express = require('express');
             .then(data => {
             img = data.img;
             res.render('index', {img:img});
-    })
-   
-    
+          })
+       
 });
+
+
+           
